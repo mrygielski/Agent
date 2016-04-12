@@ -1,0 +1,10 @@
+uses fgraphb;
+begin
+     initfgraph;
+     loadgif('menu.gif',1);
+     movebuf2screen2;
+     saveasrawfile('menu.raw',1);
+     readln;
+
+     closefgraph;
+end.
